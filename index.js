@@ -13,9 +13,6 @@ app.get('/', (req, res) => {
     res.send("hello ji kaise hai aap!")
 })
 
-app.get('/home', (req, res) => {
-    res.send("home page")
-})
 
 const PORT = process.env.PORT || 4000
 
